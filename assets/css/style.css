@@ -56,11 +56,41 @@ h1, h2 {
     border-bottom: 3px solid grey;
 }
 
-/* hero image */
+/* hero image and cover text*/
 
+#hero-outer {
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text, #cover-text h2{
+    color: white;
+}
 #hero-image {
     height: 800px;
     width: 100%;
     background: url('../images/pexels-run-ffwpu-5840719.jpg') no-repeat center center;
+}
 
+#cover-text{
+    font-size: 200%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+    height: 400px;
+    width: 300px;
+
+    padding-top: 40px;
+    padding-left: 20px;
+
+    background-color: rgba(241, 100, 100, .5);
+
+    bottom: 80px;
+    left: 350px;
+
+    position: absolute;
 }
