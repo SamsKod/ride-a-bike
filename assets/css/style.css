@@ -23,6 +23,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300%;
+    margin-left: 355px;
 }
 
 /* navigation links */
@@ -94,3 +95,16 @@ h1, h2 {
 
     position: absolute;
 }
+ /* about */
+
+ #about {
+    height: 800px;
+    margin: 0 auto;
+ }
+
+ #center-about {
+    width: 50%;
+    margin: 0 auto;
+    background-color: silver;
+    padding-top: 50px;
+ }
