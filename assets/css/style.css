@@ -108,3 +108,13 @@ h1, h2 {
     background-color: silver;
     padding-top: 50px;
  }
+
+ #center-about-text{
+    list-style-type: none;
+ }
+
+ #welcome {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 200%;
+ }
