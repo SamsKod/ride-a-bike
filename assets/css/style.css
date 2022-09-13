@@ -175,6 +175,28 @@ h1, h2 {
     border: none;
 }
 
+/* sign up */
+
+input[type=submit] {
+	margin-top: 20px;
+	margin-left: 0.75rem;
+	padding: 0.75rem;
+	background-color: grey;
+	color: white;
+	border: none;
+}
+
+input[type=reset] {
+
+	margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    background-color: white;
+    color: grey;
+    border: 2px solid grey;
+}
+
+
 /* footer */
 
 footer{
