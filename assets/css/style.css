@@ -23,7 +23,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300%;
-    margin-left: 150px;
+    margin-left: 50px;
 }
 
 /* navigation links */
@@ -49,12 +49,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    text-shadow: 2px 2px #ff0000;
-    
+    border-bottom: 2px solid grey;
 }
 
 .active {
-    border-bottom: 3px solid grey;
+    border-bottom: 2px solid grey;
 }
 
 /* hero image and cover text*/
@@ -98,8 +97,13 @@ h1, h2 {
  /* about */
 
  #about {
-    height: 700px;
-    margin: 0 auto;
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    border-style: solid;
+    border-top-color: grey;
+
+    position: relative;
  }
 
  #left-about {
@@ -114,7 +118,7 @@ h1, h2 {
     font-size: 30px;
     text-align: left;
     margin-left: 20px;
-    line-height: 2;
+    line-height: 1.5;
  }
 
  #right-about {
@@ -129,26 +133,27 @@ h1, h2 {
     font-size: 30px;
     text-align: left;
     margin-left: 20px;
-    line-height: 2;
+    line-height: 1.5;
  }
 
  #welcome{
     text-align: center;
     font-size: 300%;
+    width: 100%;
  }
     
  #seeyou-box{
     text-align: center;
     background-color: white;
     position: fixed;
-    bottom: 20px;
+    bottom: 15px;
     right: 0;
-    width: 100%;
-    text-align: center;  
+    width: 100%; 
     }
 
     #seeyou-text{
         font-size: 300%;
+        
     }
 
  .about-heading{
@@ -183,13 +188,14 @@ footer{
 
 footer > span {
 	color: silver;
+    font-size: large;
 }
 
 footer > a {
 	color: beige;
 	text-decoration: none;
 	padding: 0 15px;
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 }
 
 footer > p {
