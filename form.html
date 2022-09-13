@@ -29,7 +29,69 @@
 
 <body>
 	
-	
+	<form action="https://formdump.codeinstitute.net" method="POST">
+
+        <fieldset>
+            <legend>Your details</legend>
+    
+            <div class="float-left">
+                <label for="name-field" class="block-label">Name</label>
+                <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+            </div>
+            <div class="float-left">
+                <label for="email-field" class="block-label">Email</label>
+                <input id="email-field" type="email" name="email" placeholder="Your email" required>
+            </div>
+    
+        </fieldset>
+    
+            
+            <fieldset>
+                
+    
+                <p>What distance do you want to go?</p>
+    
+                <input id="5-10-k-radio" name="kilometer" value="5-10-k" type="radio" required>
+                <label for="5-10-k-radio">5 - 10 K</label>
+    
+                <input id="10-20-k-radio" name="kilometer" value="10-20-k" type="radio" required>
+                <label for="10-20-k-radio">10 - 20 K</label>
+    
+                <input id="20-40-k-radio" name="kilometer" value="20-40-k" type="radio" required>
+                <label for="20-40-k-radio">20 - 40 K</label>
+    
+                <input id="40plus-k-radio" name="kilometer" value="9plus-cups" type="radio" required>
+                <label for="40plus-k-radio">40 K or more</label>
+    
+    
+                <p>Which group level do want to ride in?</p>
+                
+                <div>
+                    <input type="checkbox" id="beginner-checkbox" name="beginner">
+                    <label for="beginner-checkbox">Beginner</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Intermediate-checkbox" name="Intermediate">
+                    <label for="Intermediate-checkbox">Intermediate</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="expert-checkbox" name="expert">
+                    <label for="expert-checkbox">Pro</label>
+                </div>	
+            </fieldset>
+    
+            <fieldset>
+                <legend>Feedback</legend>
+                <label for="feedback" class="block-label">How can we improve your experience with us?</label>
+                <br>
+                <textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
+            </fieldset>
+            
+    
+            <input type="submit" class="block-label" value="Enter prize draw">
+            <input type="reset" value="Reset Form">
+    
+        </form>
 	
 </body>
 
