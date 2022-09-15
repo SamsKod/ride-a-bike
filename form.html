@@ -36,29 +36,35 @@
             <input name="name" type="text" class="feedback-input" placeholder="Name" required>
             <input name="email" type="text" class="feedback-input" placeholder="Email" >
             </div>
-
-            <h2>Your level?</h2>
-			<div class="checkbox-display">
-				<input type="checkbox" name="10-k">
-				<label for="10-k-checkbox">10 k</label>
-			</div>
-
-            <div class="checkbox-display">
-				<input type="checkbox" name="20-k">
-				<label for="30-k-checkbox">20 k</label>
-			</div>
-
-            <div class="checkbox-display">
-				<input type="checkbox" name="30-k">
-				<label for="30-k-checkbox">30 k</label>
-            </div>
+            <h4>Your level?</h4>
             <div id="radio">
-                <input id="beginner-radio" name="level" value="beginner" type="radio" required>
+                <div>
+                    <input id="beginner-radio" name="level" value="beginner" type="radio" required>
                 <label for="beginner-radio">Beginner</label>
+                </div>
+            <div>
                 <input id="intermediate-radio" name="level" value="intermediate" type="radio" required>
                 <label for="beginner-radio">Intermediate</label>
-                <input id="expert-radio" name="level" value="expert" type="radio" required>
-                <label for="expert-radio">Beginner</label>
+            </div>
+            <div><input id="expert-radio" name="level" value="expert" type="radio" required>
+                <label for="expert-radio">Expert</label>
+            </div>
+            </div>
+            <h4>Favorite distance?</h4>
+
+			<div class="checkbox-display">
+				<input type="checkbox" id="10-k-checkbox" name="10-k">
+				<label for="10-k-checkbox">10 kilometer</label>
+			</div>
+
+            <div class="checkbox-display">
+				<input type="checkbox" id="20-k-checkbox" name="20-k">
+				<label for="20-k-checkbox">20 kilometer</label>
+			</div>
+
+            <div class="checkbox-display">
+				<input type="checkbox" id="30-k-checkbox" name="30-k">
+				<label for="30-k-checkbox">30 kilometer</label>
             </div>
             <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
             <input type="submit" value="SUBMIT">
