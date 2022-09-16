@@ -120,6 +120,7 @@ h1, h2, h4 {
  }
 
  #left-about-text{
+    list-style: none;
     font-size: 20px;
     text-align: left;
     margin-left: 20px;
@@ -140,14 +141,11 @@ h1, h2, h4 {
  }
 
  #right-about-text{
+    list-style: none;
     font-size: 20px;
     text-align: left;
     margin-left: 20px;
     line-height: 1.5;
- }
-
- .li-icon{
-    padding-right: 15px;
  }
 
  #welcome{
