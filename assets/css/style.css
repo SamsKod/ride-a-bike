@@ -14,7 +14,7 @@ color: black;
 /* headings and logo */
 
 h1, h2, h4 {
-    font-family: roboto condensed, sans-serif;
+    font-family: 'roboto condensed', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: grey;
@@ -77,12 +77,12 @@ h1, h2, h4 {
 
 #cover-text{
     font-size: 200%;
-    font-family: roboto condensed, sans-serif;
+    font-family: 'roboto condensed', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     
-    height: 350px;
-    width: 300px;
+    height: 270px;
+    width: 270px;
 
     padding-top: 30px;
     padding-left: 30px;
