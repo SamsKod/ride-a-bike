@@ -11,19 +11,30 @@ Ride A Bike is a site that hopes to help keep people motivated to meet up for cy
 ## Existing Features
 
 ### Navigation Bar
-- Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, About and Sign Up page and is identical in each page to allow for easy navigation.
+
+![MenuScreenshot](assets/images/MenuScreenshot.png)
+
+- Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, About and Sign up page and is identical in each page to allow for easy navigation.
 - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![Screenshot](assets/images/IndexScreenshot.png)
 ### The landing page image
+
+![IndexScreenshot](assets/images/IndexScreenshot.png)
+
 The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-This section introduces the user to Love Running with an eye catching animation to grab their attention
-![Screenshot](assets/images/AboutScreenshot.png)
+
 ### The about page
-The about page gives information on about bicycle training in a group and where and when the training starts. 
-![Screenshot](assets/images/FormScreenshot.png)
+
+![Screenshot](assets/images/AboutScreenshot.png)
+
+The about page gives information about ability to bicycle train in a group and where and when the training starts. 
+
 ### The sign up page
-Here you can add name and email address to join a group training session and information on what level you are and which distances you prefer. 
+
+![Screenshot](assets/images/FormScreenshot.png)
+
+Here you can add name and email address to join a group training session and information on what level you are and which distances you prefer.
+
 ## Features left to implement
 - Blog on race biking in general and more specific show the different routes.
 - A menu from the Café 
@@ -32,6 +43,7 @@ Here you can add name and email address to join a group training session and inf
 Test is done manual on different divices with different screens sizes.
 
 # Validator Testing
+
 ### HTML
 No errors were returned when passing through the official W3C validator
 ### CSS
