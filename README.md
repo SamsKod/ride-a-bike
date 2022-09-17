@@ -19,22 +19,26 @@ Ride A Bike is a site that hopes to help keep people motivated to meet up for cy
 The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
 This section introduces the user to Love Running with an eye catching animation to grab their attention
 ![Screenshot](assets/images/AboutScreenshot.png)
-### The about page and why and when section.
+### The about page
+The about page gives information on about bicycle training in a group and where and when the training starts. 
 ![Screenshot](assets/images/FormScreenshot.png)
 ### The sign up page
-Her you can add name and email address to join a group training session and information on what level you are and which distances you prefer. 
-## Features Left to Implement
+Here you can add name and email address to join a group training session and information on what level you are and which distances you prefer. 
+## Features left to implement
 - Blog on race biking in general and more specific show the different routes.
 - A menu from the Café 
 
 # Testing
+Test is done manual on different divices with different screens sizes.
 
 # Validator Testing
 ### HTML
 No errors were returned when passing through the official W3C validator
 ### CSS
 No errors were found when passing through the official (Jigsaw) validator
-
+### Accessibility
+The Lighthouse test tool show good result in accesibility
+![Screenshot](assets/images/LighthouseTest_img.png)
 # Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
@@ -49,7 +53,7 @@ Example code and design is used from:
 - Free frontend https://freefrontend.com
 
 # Content
-The icons in the footer were taken from Font Awesome
+The icons in the lists were taken from Font Awesome
 
 # Media
 Background image was taken from Pexel.
