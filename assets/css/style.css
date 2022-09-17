@@ -5,15 +5,18 @@
     padding: 0;
     border: none;
 }
+
 body {
-font-family: poppins, sans-serif;
-font-weight: 300;
-color: black;
+    font-family: poppins, sans-serif;
+    font-weight: 300;
+    color: black;
 }
 
 /* headings and logo */
 
-h1, h2, h4 {
+h1,
+h2,
+h4 {
     font-family: 'roboto condensed', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -33,17 +36,18 @@ h1, h2, h4 {
     letter-spacing: 3px;
 }
 
-#menu, #logo{
+#menu,
+#logo {
     line-height: 100px;
 }
 
-#menu li{
+#menu li {
     float: right;
     list-style-type: none;
     margin-right: 50px;
 }
 
-#menu a{
+#menu a {
     text-decoration: none;
     color: inherit;
 }
@@ -66,21 +70,23 @@ h1, h2, h4 {
     position: relative;
 }
 
-#cover-text, #cover-text h2{
+#cover-text,
+#cover-text h2 {
     color: white;
 }
+
 #hero-image {
     height: 800px;
     width: 100%;
     background: url('../images/pexels-run-ffwpu-5840719.jpg') no-repeat center center;
 }
 
-#cover-text{
+#cover-text {
     font-size: 200%;
     font-family: 'roboto condensed', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    
+
     height: 270px;
     width: 270px;
 
@@ -96,17 +102,18 @@ h1, h2, h4 {
 
     border-radius: 50px;
 }
- /* about */
 
- #about {
+/* about */
+
+#about {
     height: 350px;
     width: 100%;
     overflow: hidden;
     border-top: solid;
     border-top-color: grey;
- }
+}
 
- #left-about {
+#left-about {
     margin: 25px;
     width: 40%;
     float: left;
@@ -117,17 +124,17 @@ h1, h2, h4 {
     box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
     border-radius: 50px;
     position: relative;
- }
+}
 
- #left-about-text{
+#left-about-text {
     list-style: none;
     font-size: 20px;
     text-align: left;
     margin-left: 20px;
     line-height: 1.5;
- }
+}
 
- #right-about {
+#right-about {
     margin: 25px;
     width: 40%;
     float: right;
@@ -138,51 +145,53 @@ h1, h2, h4 {
     box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
     border-radius: 50px;
     position: relative;
- }
+}
 
- #right-about-text{
+#right-about-text {
     list-style: none;
     font-size: 20px;
     text-align: left;
     margin-left: 20px;
     line-height: 1.5;
- }
+}
 
- #welcome{
+#welcome {
     text-align: center;
     font-size: 300%;
     width: 100%;
- }
-    
- #seeyou-box{
+}
+
+#seeyou-box {
     text-align: center;
     background-color: white;
     position: fixed;
     bottom: 25px;
     right: 0;
     width: 100%;
- }
+}
 
- #seeyou-box a{
+#seeyou-box a {
     text-decoration: none;
     color: inherit;
 }
 
-#seeyou-box:hover{ background:rgb(242, 190, 101);
+#seeyou-box:hover {
+    background: rgb(242, 190, 101);
     text-decoration: none;
     color: inherit;
 }
-#seeyou-text{
-   font-size: 300%;
+
+#seeyou-text {
+    font-size: 300%;
 }
 
-.about-heading{
+.about-heading {
     font-size: 250%;
     margin-bottom: 10px;
-    margin-left: 20px; 
+    margin-left: 20px;
 }
 
- /* map */
+/* map */
 #map-box {
 
     height: 228px;
@@ -198,64 +207,67 @@ h1, h2, h4 {
 /* sign up form*/
 
 form {
-	width: 700px;
-	padding: 10px 25px 25px 25px;
-	border-radius: 8px;
-	margin: 25px auto;
-	background-color: white;
+    width: 700px;
+    padding: 10px 25px 25px 25px;
+    border-radius: 8px;
+    margin: 25px auto;
+    background-color: white;
 }
 
 
 
-#form-box{
+#form-box {
     height: 565px;
     width: 100%;
     overflow: hidden;
     border-top: solid;
     border-top-color: grey;
     padding-top: 20px;
- }
+}
 
- #form-box h2{
+#form-box h2 {
     text-align: center;
     font-size: 200%;
- }
+}
 
- #form-box p{
+#form-box p {
     text-align: center;
- }
- .float-left{
+}
+
+.float-left {
     float: left;
- }
+}
 
- .float-right{
+.float-right {
     float: right;
- }
+}
 
- legend {
-	font-size: large;
-	font-weight: 600;
-	text-transform: uppercase;
-	margin: 20px 0 10px 0;
+legend {
+    font-size: large;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 20px 0 10px 0;
 }
 
 input[type=text],
 input[type=email],
 input[type=submit] {
-        width: 100%;
-        background:moccasin;
-        border-radius:5px;
-        border:0;
-        cursor:pointer;
-        color:grey;
-        font-size:16px;
-        padding-top:10px;
-        padding-bottom:10px;
-        transition: all 0.3s;
-        margin-top:-4px;
-        font-weight:700;
+    width: 100%;
+    background: moccasin;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: grey;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
 }
-      [type="submit"]:hover { background:rgb(242, 190, 101); 
+
+[type="submit"]:hover {
+    background: rgb(242, 190, 101);
 }
 
 .card {
@@ -266,14 +278,15 @@ input[type=submit] {
     box-shadow: 20px 20px 0 rgba(0, 0, 0, 0.3);
     border-radius: 50px;
     position: relative;
-  }
+}
 
-.card h2{
+.card h2 {
     font-size: 20px;
     margin-top: -15px;
     padding-bottom: 10px;
 }
-.card p{
+
+.card p {
     font-size: 10px;
     padding-bottom: 10px;
     text-align: left;
@@ -281,45 +294,47 @@ input[type=submit] {
 
 label {
     padding: 20px;
-    font-weight:700;
+    font-weight: 700;
     font-size: 16px;
 }
 
-.radio{
+.radio {
     padding-bottom: 10px;
     display: inline;
 }
-.checkbox-display{
+
+.checkbox-display {
     display: inline;
     padding-bottom: 10px;
 }
-  textarea {
+
+textarea {
     height: 60px;
     line-height: 100%;
-    resize:vertical;
-  }
+    resize: vertical;
+}
 
-  .feedback-input {
-    color:grey;
+.feedback-input {
+    color: grey;
     font-family: Helvetica, Arial, sans-serif;
-    font-weight:500;
+    font-weight: 500;
     font-size: 18px;
     border-radius: 5px;
     line-height: 22px;
     background-color: transparent;
-    border:2px solid #CC6666;
+    border: 2px solid #CC6666;
     transition: all 0.3s;
     padding: 13px;
     margin-top: 10px;
     margin-bottom: 15px;
-    width:100%;
+    width: 100%;
     box-sizing: border-box;
-    outline:0;
-  }
+    outline: 0;
+}
 
 /* footer */
 
-footer{
+footer {
     background-color: black;
     position: fixed;
     bottom: 0;
@@ -328,97 +343,139 @@ footer{
     text-align: center;
 }
 
-footer > span {
-	color: silver;
+footer>span {
+    color: silver;
     font-size: large;
 }
 
-footer > a {
-	color: beige;
-	text-decoration: none;
-	padding: 0 15px;
-	font-size: 0.9rem;
+footer>a {
+    color: beige;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 0.9rem;
 }
 
-footer > p {
-	color: silver;
+footer>p {
+    color: silver;
 }
 
 /* On screens that are 850px or less */
-@media screen and (max-width: 850px){
-    #about{
+@media screen and (max-width: 850px) {
+    #about {
         width: 100%;
         height: 700px;
         margin: 0 auto;
     }
 
-    #left-about, #right-about{
+    #left-about,
+    #right-about {
         clear: both;
         width: 80%;
-        float:none;
+        float: none;
     }
 
-    #welcome{
+    #welcome {
         width: auto;
     }
 
-    form{
+    form {
         width: 500px;
-        padding:0;
+        padding: 0;
 
     }
 
-    .card{
+    .card {
         margin: 0 auto;
         padding: 15px 30px 15px 30px;
         width: 100%;
     }
 }
-    /* On screens that are 760px or less */
-    @media screen and (max-width: 760px){
-    #menu{
-clear: left;
-float: left;
-margin-left: 44px;
-margin-bottom: 20px;
-line-height: 25px;
+
+/* On screens that are 760px or less */
+@media screen and (max-width: 760px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 44px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #menu li {
+        margin-right: 5px;
+    }
+
+    #cover-text {
+        left: 0;
+        margin-left: 10px;
+    }
+
+    form {
+        width: 300px;
+    }
+
+    #form-box {
+        height: 100%;
+    }
+
+    .card {
+        margin: 0 auto;
+        padding: 15px 30px 15px 30px;
+        width: 80%;
+    }
+
+    h4 {
+        padding-bottom: 10px;
+    }
+
+    .radio {
+        display: block;
+    }
+
+    .checkbox-display {
+        display: block;
+    }
+
+    label {
+        padding-left: 5px;
+    }
+
 }
 
-#menu li{
-    margin-right: 5px;
-}
+/* On screens that are 400px or less */
+@media screen and (max-width: 400px) {
+    #logo {
+        margin-left: 12px;
+    }
 
-#cover-text{
-left: 0;
-margin-left: 10px;
-}    
+    #menu {
+        margin-left: 12px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
 
-form{
-    width: 300px;
-}
+    #cover-text {
+        top: 50px;
+        bottom: 0px;
+    }
 
-#form-box{
-    height: 100%;
-}
+    #about {
+        height: fit-content;
+    }
 
-.card{
-    margin: 0 auto;
-    padding: 15px 30px 15px 30px;
-    width: 80%;
-}
-h4{
-    padding-bottom: 10px;
-}
-.radio{
-    display: block;
-}
+    #map-box {
+        margin-bottom: 0px;
+    }
 
-.checkbox-display{
-    display: block;    
-}
+    #seeyou-text {
+        display: none;
+    }
 
-label{
-    padding-left: 5px;
-    
-}
+    footer>span {
+        font-size: small;
+    }
+
+    footer a {
+        font-size: 0.7rem;
+    }
 }
