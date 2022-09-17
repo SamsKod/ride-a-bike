@@ -194,8 +194,9 @@ h4 {
 /* map */
 #map-box {
 
-    height: 228px;
+    height: 30vw;
     margin-bottom: 50px;
+    padding: 20px;
 }
 
 #map {
